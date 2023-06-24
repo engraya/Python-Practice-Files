@@ -1,0 +1,78 @@
+#  understanding the basics or concepts for functions
+
+import numbers
+from unittest import FunctionTestCase
+
+
+def first_functions():
+    print('my name is ahmad')
+
+first_functions()
+
+def new_analogy():
+    print('input statement for functions')
+    print('you can enter a valure for function stated')
+
+new_analogy()
+
+def simple_calculations():
+    no1 = 3
+    no2 = 4
+    result = no1+no2
+    print(result)
+    return result
+simple_calculations()
+
+def eligibility_for_voting():
+    print(' The law stated that individuals are eligible to vote ehan they are above 18 years of age')
+    age = input('Enter your age here to see if you are eligible to vote in the upcomming general elections  ')
+    if age > '18':
+        print('Yes!, you are eligible to vote in the upcomming general elections')
+    else:
+        print('Sorry!, but you are not eligible to vote in the upcomming general elections')
+eligibility_for_voting()
+
+def clubs():
+    league1 = ['man u', 'chelsea', 'arsenal', 'man city', 'liverpool', 'tottenham hotspurs']
+    league2 = ['madrid', 'barca', 'atmadrid', 'malaga', 'mallorca']
+    league3 = ['psg', 'nantes', 'marseille', 'toulouse', 'llorent', 'guingamp']
+    print(f"uefa championsleague final was won by {league1[2]}")
+    print(f"Fc bayern muich played together with {league3[0]}, and {league1[3]} in the chanpionsleague 2016")
+
+clubs()
+
+def warning(name):
+    print('please take care of upur self', name)
+
+warning('musa')
+
+def medical_proceedings(name, title, age, country, status):
+ 
+    print('i', name,'i am incharge of the welfare and care for he patients')
+    print('therefor, by profrssion , i am a', title)
+    print('here is my profrssional profile:')
+    print(age)
+    print(country)
+    print(status)
+
+medical_proceedings('ahmad', 'engr', '23', 'nigeria', 'single')
+
+
+def african_country():
+
+        countries = {
+        'nigeria': 'africa',
+        'turkey' : 'europe',
+        'moldova' : 'asia',
+        'ghana' : 'africa',
+        'russia' : 'europe',
+        'gambia' : 'africa',
+    }
+
+        print('here are some examples of countries and some of ther details')
+        print(countries)
+   
+african_country()
+
+
+ 

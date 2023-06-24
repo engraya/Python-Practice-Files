@@ -1,0 +1,15 @@
+# def addition():
+#     number1 = input('enter the first number  ')
+#     number2 = input('enter the second number  ')
+
+#     result = number1+number2
+#     print(result)
+# addition()
+
+
+
+def addition(number1, number2):
+    
+    result = number1+number2
+    print(result)
+addition(5, 9)

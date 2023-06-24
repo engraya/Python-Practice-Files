@@ -1,0 +1,7 @@
+print('Enter your name please to have some greetings........')
+name = input('what is your name? ')
+print('Hello '  +  name )
+religion = input('enter your religion here please  ')
+print('indeed, no religion other than ' + religion)
+profession = input('enter your profession here  ')
+print('have a nice day  ' + profession)
